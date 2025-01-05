@@ -69,6 +69,46 @@ a {
 
 .overlay-text {
     width: 100%;
+    padding: 20px;
     background: #000;
     align-items: center;
+}
+
+.gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.gallery section {
+    padding: 0;
+    font-family: cobblestone, serif;
+}
+
+.products {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    margin: 0;
+}
+
+.product p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-style: italic;
 }
